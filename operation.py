@@ -95,7 +95,7 @@ class Calculator():
 
     def factorial(self, x):
         if Calculator.check_num(x):
-            int(x)
+            x = int(x)
 
             if x < 0:
                 print(Fore.LIGHTRED_EX + "Error: the factorial is not defined for negative numbers.\n")
